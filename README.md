@@ -1,4 +1,5 @@
 # Sensores
+video: https://www.youtube.com/watch?v=d1R0FFdZL1k&feature=youtu.be
 
 
 **Acelerometro**https://github.com/AngelValdes4/Sensores/settings
@@ -33,5 +34,5 @@ La implmementacion del girescopio es similar al acelerometro con la diferencia d
  ~~~ 
  func starMagnetometerUpdates ()
  func starDeviceMotionUpdates ()
+~~~
 
-video: https://www.youtube.com/watch?v=d1R0FFdZL1k&feature=youtu.be
