@@ -1,5 +1,5 @@
 # Sensores
-video: https://www.youtube.com/watch?v=d1R0FFdZL1k&feature=youtu.be
+
 
 **Acelerometro**https://github.com/AngelValdes4/Sensores/settings
 
@@ -17,6 +17,10 @@ Para inicar las actualizaciones del acelerometro, llamaremos el siguiente metodo
 
 > func starAccelerometerUpdates()
 
-
+   <html>
+      <head>
+        import CoreMotion
+      </head>
+    </html>
 
 video: https://www.youtube.com/watch?v=d1R0FFdZL1k&feature=youtu.be
