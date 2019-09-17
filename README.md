@@ -7,20 +7,31 @@ Un acelerómetro mide los cambios en la velocidad a lo largo de un eje que permi
 
 Para empezar importar Core Motion
 
-> import CoreMotion
+    import CoreMotion
 
-Crear una intancia del obejto CMMotionManager
+Ahora se necesita crear una intancia del obejto CMMotionManager
+La aplicacion puede usarlo para recibir cuatro tipo de movimientos( datos del acelerometro, datos del girescopio, datos del magnetometro y datos del movimiento del dispositivo)
 
-> let motionManager = CMMotionManager()
+      let motionManager = CMMotionManager()
 
 Para inicar las actualizaciones del acelerometro, llamaremos el siguiente metodo
 
-> func starAccelerometerUpdates()
+    func starAccelerometerUpdates()
+ 
 
-   <html>
-      <head>
-        import CoreMotion
-      </head>
-    </html>
+
+
+**Giroscopio**
+La implmementacion del girescopio es similar al acelerometro con la diferencia de que el metodo sera diferente
+ 
+ ~~~ 
+ func startGyroUpdates ()
+ ~~~
+ 
+ Implementacion similar para el magnetometro y el movimiento del dispositivo
+ 
+ ~~~ 
+ func starMagnetometerUpdates ()
+ func starDeviceMotionUpdates ()
 
 video: https://www.youtube.com/watch?v=d1R0FFdZL1k&feature=youtu.be
